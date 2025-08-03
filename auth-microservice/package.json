@@ -4,7 +4,7 @@
   "description": "A simple micro authentication service in Node.js using Express",
   "main": "app.js",
   "scripts": {
-    "dev": "node --watch app.js",
+    "dev": "NODE_ENV=development node --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,6 +28,7 @@
     "eslint-plugin-import": "^2.32.0"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "express": "^5.1.0"
   }
 }

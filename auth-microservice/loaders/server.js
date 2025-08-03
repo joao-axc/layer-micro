@@ -1,5 +1,7 @@
 const express = require("express");
 
-const app = express();
+module.exports = (env) => {
+  const app = express();
 
-module.exports = app;
+  return app;
+};

@@ -1,11 +1,13 @@
-const server = require("./loaders/server");
-
-const PORT = 3000;
+const Server = require("./loaders/server");
+const Env = require("./loaders/enviroments");
 
 (async () => {
   try {
-    server.listen(PORT, () => {
-      console.log(`Server is running on port ${PORT}`);
+    const env = Env();
+    const server = Server(env);
+
+    server.listen(env.server.port, () => {
+      console.log(`Server is running on port ${env.server.port}`);
     });
   } catch (error) {
     console.log(error);
