@@ -144,4 +144,4 @@ npm start
 
 📺 Course Link
 
-🔗 Watch on YouTube - [Build Layered Microservices](https://youtube.com/playlist?list=PLHcr_gHWivKWu3sASAaw-p43b6YSE04Zd&si=lboBIkxswzHlzlG8)
+🔗 [Watch on YouTube - Build Layered Microservices](https://youtube.com/playlist?list=PLHcr_gHWivKWu3sASAaw-p43b6YSE04Zd&si=lboBIkxswzHlzlG8)

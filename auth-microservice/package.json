@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/joao-axc/layer-micro/issues"
   },
-  "homepage": "https://github.com/joao-axc/layer-micro#readme"
+  "homepage": "https://github.com/joao-axc/layer-micro#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0"
+  }
 }
